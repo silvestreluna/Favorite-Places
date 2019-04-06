@@ -9,10 +9,9 @@ const domStringBuilder = (arrayToPrint) =>{
     
     let domString = '';
     arrayToPrint.forEach((p)=>{
-        domString += `<div class="placeCard col-sm-3 m-2 card">`;
-        domString += `<img src="${p.cityImage}"class="img-thumbnail" />`;
+        domString += `<div class="singleCard img-fluid col-sm-3 m-2 card">`;
+        domString += `<img src="${p.cityImage}"class="cityImage" />`;
         domString += `<div class="card-body">`;
-        domString += `<h5>${p.favId}</h5>`;
         domString += `<p>${p.favoriteTouristAttraction}</p>`;
         domString += `<p>${p.favoriteHotel}</p>`;
         domString += `<p>${p.favoriteBar}</p>`;
