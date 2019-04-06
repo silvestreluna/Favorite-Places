@@ -1,7 +1,7 @@
 # Favorite Places 
 
 # Screenshot
-![]()
+![Favorite Places](https://raw.githubusercontent.com/silvestreluna/Favorite-Places/master/img/screencapture-127-0-0-1-8080-2019-04-06-13_23_33.png)
 
 # Getting Started
 ```
