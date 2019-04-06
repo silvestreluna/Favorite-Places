@@ -4,12 +4,19 @@ body {
 
 
 
-.placeCard {
-    border: 2px solid black;
+.singleCard {
+    width: 900px;
+    border: .2em solid lightgray;
     text-align: center;
+
 }
 
-img {
-
-
+.cityImage {
+    border-radius: 10px;
+    padding: 5px;
+    height: 150px;
+}
+p {
+    font-family: inherit;
+    font-weight: 500;
 }
